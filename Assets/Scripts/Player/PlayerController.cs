@@ -6,26 +6,33 @@ public class NaylaMovement : MonoBehaviour
 {
     float movementHorizontalNayla ;
     
-    float speedNayla = 2;
+    [SerializeField]
+    float runNayla ;
+    float currentSpeed;
+    [SerializeField]
+    float speedNayla;
 
     [SerializeField]
     float jumpNayla;
 
     Rigidbody2D playerNayla;
+    SpriteRenderer spriteRenderer;
 
     bool onGround = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
         playerNayla = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Movement();
-        // Facing();
+        Facing();
         Jump();
     }
 
@@ -33,16 +40,23 @@ public class NaylaMovement : MonoBehaviour
         movementHorizontalNayla = Input.GetAxis("Horizontal");
         Vector2 direction = new Vector2(movementHorizontalNayla,0);
 
-        transform.Translate(direction*Time.deltaTime*speedNayla);
+        if(onGround == true){
+                currentSpeed = Input.GetKey(KeyCode.LeftShift) ? speedNayla : runNayla;
+            
+        }
+
+        transform.Translate(direction*Time.deltaTime*currentSpeed);
     }
 
     void Facing(){
         if(movementHorizontalNayla < 0){
-            transform.localScale = new Vector3(-0.3069312f,0.3069312f,0.3069312f);
-        }else{
-            transform.localScale = new Vector3(0.3069312f,0.3069312f,0.3069312f);
-        }
+                spriteRenderer.flipX = true;    
+            }
+        else if(movementHorizontalNayla >0){
+                spriteRenderer.flipX = false;    
+            }
     }
+
 
     void Jump(){
         if(Input.GetKeyDown(KeyCode.Space) && onGround == true){
