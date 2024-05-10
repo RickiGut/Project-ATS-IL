@@ -25,7 +25,7 @@ public class NaylaMovement : MonoBehaviour
     void Update()
     {
         Movement();
-        Facing();
+        // Facing();
         Jump();
     }
 
@@ -38,9 +38,9 @@ public class NaylaMovement : MonoBehaviour
 
     void Facing(){
         if(movementHorizontalNayla < 0){
-            transform.localScale = new Vector3(-3.1226f,3.1226f,3.1226f);
+            transform.localScale = new Vector3(-0.3069312f,0.3069312f,0.3069312f);
         }else{
-            transform.localScale = new Vector3(3.1226f,3.1226f,3.1226f);
+            transform.localScale = new Vector3(0.3069312f,0.3069312f,0.3069312f);
         }
     }
 

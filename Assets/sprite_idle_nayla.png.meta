@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -100,10 +100,10 @@ TextureImporter:
       name: sprite_idle_nayla_0
       rect:
         serializedVersion: 2
-        x: 415
-        y: 178
-        width: 248
-        height: 509
+        x: 0
+        y: 32
+        width: 1080
+        height: 1016
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72873b1fccd16e8489829a1867279791
-      internalID: -2125993279
+      spriteID: 45a60b2a23619f944bd2ae990a8192aa
+      internalID: 1964778338
       vertices: []
       indices: 
       edges: []
@@ -121,10 +121,10 @@ TextureImporter:
       name: sprite_idle_nayla_1
       rect:
         serializedVersion: 2
-        x: 1497
-        y: 178
-        width: 249
-        height: 508
+        x: 1080
+        y: 32
+        width: 1080
+        height: 1016
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87ff17df38c83134596cf03d60420a59
-      internalID: -2037023676
+      spriteID: 6a5ac67a273cdcb4f8dec9906e27eb71
+      internalID: 1810392033
       vertices: []
       indices: 
       edges: []
@@ -142,10 +142,10 @@ TextureImporter:
       name: sprite_idle_nayla_2
       rect:
         serializedVersion: 2
-        x: 2577
-        y: 178
-        width: 253
-        height: 509
+        x: 2160
+        y: 32
+        width: 1080
+        height: 1016
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c36a02093a5c94bb47f6a777ad1fc5
-      internalID: -303660608
+      spriteID: 530831138593f8a43a76e5e6b6b70000
+      internalID: 1816973205
       vertices: []
       indices: 
       edges: []
@@ -163,10 +163,10 @@ TextureImporter:
       name: sprite_idle_nayla_3
       rect:
         serializedVersion: 2
-        x: 3657
-        y: 178
-        width: 248
-        height: 506
+        x: 3240
+        y: 32
+        width: 1080
+        height: 1016
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9ec9cc7b780ffb409f5083942649d9f
-      internalID: -1949738479
+      spriteID: 96bbf95cd82fee74aacc129f1a5272e1
+      internalID: -1331676917
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite_idle_nayla_0: -2125993279
-      sprite_idle_nayla_1: -2037023676
-      sprite_idle_nayla_2: -303660608
-      sprite_idle_nayla_3: -1949738479
+      sprite_idle_nayla_0: 1964778338
+      sprite_idle_nayla_1: 1810392033
+      sprite_idle_nayla_2: 1816973205
+      sprite_idle_nayla_3: -1331676917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
