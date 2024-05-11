@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 04c358c342a06c54cbd6ea3f55433b1d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: compile_sprite_naya_0
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1658
+        width: 223
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b278996206bff44ae574029f1ac0cb
+      internalID: 684852110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_1
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1658
+        width: 224
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6638efabea14f4ebf8c72f5d628517
+      internalID: 943181531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_2
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 2131
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125ec55d6a8b6f84ca93a7c7a0393a7b
+      internalID: 1231260493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1658
+        width: 220
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a00f139e5a062642bd3e569f95a8a29
+      internalID: 1919551473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1658
+        width: 222
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ed41bdc86af274c879f70638ca4c5c
+      internalID: -915077934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_5
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1640
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9b9056005f874e82689c2382a5139
+      internalID: 1620837885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1118
+        width: 251
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bace9cd18722a4fa37e570385868a0
+      internalID: 462986950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_7
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1120
+        width: 268
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dc65f3ccbb8724f99b98e4e4e29c12
+      internalID: 1820554245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_8
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1132
+        width: 286
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c663184b34e264fa8e65bc80bbf4d0
+      internalID: 1390987280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_9
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1118
+        width: 258
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dad5fa6702f1024daf759bf1c95939e
+      internalID: -1161182263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_10
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1287
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bd268c777cdea4fafa3c80ab0edea1
+      internalID: 1190991865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_11
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1113
+        width: 320
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513391f5a5662e748b60821787171b6c
+      internalID: -1011243789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_12
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 1127
+        width: 252
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda3eae1356d8114a9fd1de8ff7f2743
+      internalID: 583925546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 578
+        width: 226
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b26026879f00b40b3aa0c658467ce3
+      internalID: -706521341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 640
+        width: 266
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed70ece06e5fc341b4df6155f59bf21
+      internalID: -900991654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1044
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0af4a4ea3db28468592dadc56efb33
+      internalID: -929596410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_16
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 586
+        width: 263
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12fd86c09e7f014682a346a2495ee6e
+      internalID: -758395517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_17
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 593
+        width: 253
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d766bb071e2c2464fb926a40599624a7
+      internalID: 1086665774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_18
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 585
+        width: 266
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef1c67dad2e55b428e082b5df896aa9
+      internalID: 1930032315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_19
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 940
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96873905fa88a6247be5597566833e84
+      internalID: -2133021913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_20
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 934
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe5e2ac9f7447340a91efffafe7b204
+      internalID: -1363109658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_21
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 924
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a62c7570e03a44a8b6074af008a348
+      internalID: -727180226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_22
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 900
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b788fd07884f444a91f98a3cac0b010
+      internalID: -475439521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_23
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 628
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a11a342d34a44a41b7c370e9576113e
+      internalID: -1367039655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_24
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 612
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8174eef17db00314faef2ede71662e1c
+      internalID: -238902389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_25
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 569
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c29e6477481d46aa07d4c88f2a4d4
+      internalID: 1787917609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 448
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06fee7c7be217141a64c26a06893a21
+      internalID: -1719894815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_27
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 268
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f6457ee1e70da41b5ecc449b3167fe
+      internalID: -334212173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_28
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 369
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60413dea06a43704c8849c6c8012d3d3
+      internalID: 279794970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_29
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 39
+        width: 321
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b9c07976b16b047a4e6e054d1c7a5e
+      internalID: -965506644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_30
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 19
+        width: 1007
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd562c37beecec4898790b674bd8785
+      internalID: 1516106187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_31
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 6
+        width: 373
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ee3b8036acf7444b29a75c6ee1c0a8
+      internalID: -710729661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_32
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 327
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e76723d6eca1674b9d28f66beb8a516
+      internalID: 934770172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_33
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 260
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5caec0cb65fdb48b4bdfdc02b8ed6e
+      internalID: -1152611030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_34
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 207
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58cdd83af2110b43b28a53dd1d2884e
+      internalID: -1374903404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_35
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76c4f109183a3d4b95f7e0b44490981
+      internalID: 1054422241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_36
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 158
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f5b8d651dafb1418c4492a1411d8f4
+      internalID: -1984917271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_37
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 149
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab617fa96c1bcd4eb5e076892b47d18
+      internalID: -1869466131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: compile_sprite_naya_38
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2872dc30fbbf79c4db14898e60a728c0
+      internalID: 308438058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      compile_sprite_naya_0: 684852110
+      compile_sprite_naya_1: 943181531
+      compile_sprite_naya_10: 1190991865
+      compile_sprite_naya_11: -1011243789
+      compile_sprite_naya_12: 583925546
+      compile_sprite_naya_13: -706521341
+      compile_sprite_naya_14: -900991654
+      compile_sprite_naya_15: -929596410
+      compile_sprite_naya_16: -758395517
+      compile_sprite_naya_17: 1086665774
+      compile_sprite_naya_18: 1930032315
+      compile_sprite_naya_19: -2133021913
+      compile_sprite_naya_2: 1231260493
+      compile_sprite_naya_20: -1363109658
+      compile_sprite_naya_21: -727180226
+      compile_sprite_naya_22: -475439521
+      compile_sprite_naya_23: -1367039655
+      compile_sprite_naya_24: -238902389
+      compile_sprite_naya_25: 1787917609
+      compile_sprite_naya_26: -1719894815
+      compile_sprite_naya_27: -334212173
+      compile_sprite_naya_28: 279794970
+      compile_sprite_naya_29: -965506644
+      compile_sprite_naya_3: 1919551473
+      compile_sprite_naya_30: 1516106187
+      compile_sprite_naya_31: -710729661
+      compile_sprite_naya_32: 934770172
+      compile_sprite_naya_33: -1152611030
+      compile_sprite_naya_34: -1374903404
+      compile_sprite_naya_35: 1054422241
+      compile_sprite_naya_36: -1984917271
+      compile_sprite_naya_37: -1869466131
+      compile_sprite_naya_38: 308438058
+      compile_sprite_naya_4: -915077934
+      compile_sprite_naya_5: 1620837885
+      compile_sprite_naya_6: 462986950
+      compile_sprite_naya_7: 1820554245
+      compile_sprite_naya_8: 1390987280
+      compile_sprite_naya_9: -1161182263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

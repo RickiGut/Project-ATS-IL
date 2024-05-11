@@ -20,12 +20,16 @@ public class NaylaMovement : MonoBehaviour
 
     bool onGround = false;
 
+    //Animasi
+    Animator animator;
+
 
     // Start is called before the first frame update
     void Start()
     {
         playerNayla = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,6 +38,8 @@ public class NaylaMovement : MonoBehaviour
         Movement();
         Facing();
         Jump();
+        Dash();
+        Animations();
     }
 
     void Movement(){
@@ -62,6 +68,22 @@ public class NaylaMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && onGround == true){
            playerNayla.velocity = new Vector2(0,1) * jumpNayla;
         }
+    }
+
+    void Dash(){
+        if(Input.GetKeyDown(KeyCode.S) && onGround == true){
+            if(movementHorizontalNayla < 0){
+             playerNayla.velocity = new Vector2(-1,0) * jumpNayla; 
+            }
+            if(movementHorizontalNayla > 0){
+             playerNayla.velocity = new Vector2(1,0) * jumpNayla; 
+            }
+        }
+    }
+
+    void Animations(){
+        animator.SetFloat("Moving",Mathf.Abs(movementHorizontalNayla));
+        animator.SetBool("Jump",onGround);
     }
 
     private void OnTriggerEnter2D(Collider2D other){
