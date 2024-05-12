@@ -61,7 +61,7 @@ public class NaylaMovement : MonoBehaviour
         movementHorizontalNayla = Input.GetAxis("Horizontal");
         Vector2 direction = new Vector2(movementHorizontalNayla,0);
 
-        currentSpeed = Input.GetKey(KeyCode.LeftShift) ? speedNayla : runNayla;
+        currentSpeed = Input.GetKey(KeyCode.LeftShift)  && isGrounded()? speedNayla : runNayla;
 
         transform.Translate(direction*Time.deltaTime*currentSpeed);
     }
