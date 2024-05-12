@@ -20,6 +20,17 @@ public class NaylaMovement : MonoBehaviour
 
     bool onGround = false;
 
+    //Detection Ground 
+    [SerializeField] Vector2 boxSize;
+    [SerializeField] float castDistance;
+    [SerializeField] LayerMask groundLayer;
+
+
+    //Detection
+    private Vector3 respawnPoint;
+    public GameObject fallDetector;
+
+
     //Animasi
     Animator animator;
 
@@ -30,6 +41,7 @@ public class NaylaMovement : MonoBehaviour
         playerNayla = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        respawnPoint = transform.position;
     }
 
     // Update is called once per frame
@@ -39,39 +51,57 @@ public class NaylaMovement : MonoBehaviour
         Facing();
         Jump();
         Dash();
+        Detection();
         Animations();
     }
+
+    
 
     void Movement(){
         movementHorizontalNayla = Input.GetAxis("Horizontal");
         Vector2 direction = new Vector2(movementHorizontalNayla,0);
 
-        if(onGround == true){
-                currentSpeed = Input.GetKey(KeyCode.LeftShift) ? speedNayla : runNayla;
-            
-        }
+        currentSpeed = Input.GetKey(KeyCode.LeftShift) ? speedNayla : runNayla;
 
         transform.Translate(direction*Time.deltaTime*currentSpeed);
     }
 
     void Facing(){
         if(movementHorizontalNayla < 0){
-                spriteRenderer.flipX = true;    
+                // spriteRenderer.flipX = true;
+                transform.localScale= new Vector3(-0.8f,0.8f,0.8f);
             }
-        else if(movementHorizontalNayla >0){
-                spriteRenderer.flipX = false;    
-            }
+        else if(movementHorizontalNayla > 0){
+                transform.localScale= new Vector3(0.8f,0.8f,0.8f);
+               }
     }
 
 
     void Jump(){
-        if(Input.GetKeyDown(KeyCode.Space) && onGround == true){
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded()){
            playerNayla.velocity = new Vector2(0,1) * jumpNayla;
         }
     }
 
+    public bool isGrounded(){
+        if(Physics2D.BoxCast(transform.position,boxSize,0,-transform.up,castDistance,groundLayer)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    void Detection(){
+        fallDetector.transform.position = new Vector2(transform.position.x,fallDetector.transform.position.y);
+    }
+
+
+    private void OnDrawGizmos(){
+        Gizmos.DrawCube(transform.position-transform.up*castDistance,boxSize);
+    }
+
     void Dash(){
-        if(Input.GetKeyDown(KeyCode.S) && onGround == true){
+        if(Input.GetKeyDown(KeyCode.S) && isGrounded()){
             if(movementHorizontalNayla < 0){
              playerNayla.velocity = new Vector2(-1,0) * jumpNayla; 
             }
@@ -83,20 +113,16 @@ public class NaylaMovement : MonoBehaviour
 
     void Animations(){
         animator.SetFloat("Moving",Mathf.Abs(movementHorizontalNayla));
-        animator.SetBool("Jump",onGround);
+        animator.SetBool("Jump",isGrounded());
     }
+
 
     private void OnTriggerEnter2D(Collider2D other){
-        if(other.tag == "Ground"){
-            onGround =true;
-            print(onGround);
+        if(other.tag == "Detection"){
+            transform.position = respawnPoint;
+        }else if(other.tag == "checkpoint"){
+            respawnPoint = transform.position;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other){
-        if(other.tag == "Ground"){
-            onGround = false;
-            print(onGround);
-        }
-    }
 }
