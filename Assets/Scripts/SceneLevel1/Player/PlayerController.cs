@@ -124,7 +124,7 @@ public class NaylaMovement : MonoBehaviour
         if(other.tag == "Detection" && !isHurt){
            HealtManager.health--;
             transform.position = respawnPoint;
-           if(HealtManager.health < 0) {
+           if(HealtManager.health <= 0) {
             PlayerManager.isGameOver = true;
             gameObject.SetActive(false);
            }else{
